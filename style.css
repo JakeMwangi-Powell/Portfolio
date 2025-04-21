@@ -1,0 +1,16 @@
+/* Center the greeting and make it big */
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  }
+  
+  #greeting {
+    font-size: 3rem;
+    color: #333;
+  }
+  
