@@ -23,15 +23,28 @@
 <nav id = "hamburger-nav">
   <div class = "logo"> Jake Mwangi-Powell</div>
     <div class="hamburger-menu"> 
-      <div class = "hamburger-icon">
-
+      <div class = "hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience and Education</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
 
 </nav>
+<section id="hero">
+  <div class="section_pic-container">
+    
+  </div>
+</section>
   Welcome to my Portfolio!
   My name is Jake Mwangi-Powell
 
-  <script type="module" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
